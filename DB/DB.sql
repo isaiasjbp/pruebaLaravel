@@ -2,7 +2,8 @@
 SQLyog Ultimate v11.11 (64 bit)
 MySQL - 5.7.31 : Database - prueba_ingreso
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -171,7 +172,7 @@ CREATE TABLE `users` (
 
 /*Data for the table `users` */
 
-insert  into `users`(`id`,`name`,`email`,`password`,`two_factor_secret`,`two_factor_recovery_codes`,`roll`,`estado`,`email_verified_at`,`remember_token`,`current_team_id`,`profile_photo_path`,`created_at`,`updated_at`) values (2,'Isaias j Balmaceda Prins','isaias.balmaceda@gmail.com','$2y$10$f4naHL6coRoE90YZNh7xIemuSUZlpmmTIMHDfL5kV5SbLoQXQfpDq',NULL,NULL,1,1,NULL,NULL,NULL,NULL,'2021-03-06 23:05:00','2021-03-07 18:27:21'),(14,'Isaias Balmaceda Prins','isaias3@gmail.com','$2y$10$wOoIMA0e9LHpcT.eqOnaf.4SDi5BpA0L1G75oaBUfA3T26BsQG5c2',NULL,NULL,0,1,NULL,NULL,NULL,NULL,'2021-03-07 16:18:10','2021-03-07 18:23:31'),(15,'Isaias Balmaceda Prins','isaias4@gmail.com','$2y$10$N5bmJaK9riWkAWCsw8HcYuwdM3.iQ0iczPh0pKjv44fuqleA6rbhK',NULL,NULL,1,1,NULL,NULL,NULL,NULL,'2021-03-07 16:18:26','2021-03-07 21:06:21'),(16,'Joel Balmaceda Prins','joel5@gmail.com','$2y$10$3cZ13D6K4JZRem1h0XgcWOWxIoN/iMTlQ0qeFXe/.xiJ0vSCa/QEy',NULL,NULL,1,1,NULL,NULL,NULL,NULL,'2021-03-07 16:34:55','2021-03-07 21:06:14'),(26,'Dilcia Maria','dilciagm.dg@gmail.com','$2y$10$ks5XVNqpSr2FU.NPSx0aq.rIm/g2SFtDNJJJN1H4YjvYae6sEz5fC',NULL,NULL,0,1,NULL,NULL,NULL,NULL,'2021-03-07 18:38:23','2021-03-07 21:06:58');
+insert  into `users`(`id`,`name`,`email`,`password`,`two_factor_secret`,`two_factor_recovery_codes`,`roll`,`estado`,`email_verified_at`,`remember_token`,`current_team_id`,`profile_photo_path`,`created_at`,`updated_at`) values (2,'Isaias j Balmaceda Prins','isaias.balmaceda@gmail.com','$2y$10$f4naHL6coRoE90YZNh7xIemuSUZlpmmTIMHDfL5kV5SbLoQXQfpDq',NULL,NULL,1,1,NULL,NULL,NULL,NULL,'2021-03-06 23:05:00','2021-03-07 18:27:21'),(14,'Isaias Balmaceda Prins','isaias3@gmail.com','$2y$10$wOoIMA0e9LHpcT.eqOnaf.4SDi5BpA0L1G75oaBUfA3T26BsQG5c2',NULL,NULL,0,1,NULL,NULL,NULL,NULL,'2021-03-07 16:18:10','2021-03-07 18:23:31'),(15,'Isaias Balmaceda Prins','isaias4@gmail.com','$2y$10$N5bmJaK9riWkAWCsw8HcYuwdM3.iQ0iczPh0pKjv44fuqleA6rbhK',NULL,NULL,1,1,NULL,NULL,NULL,NULL,'2021-03-07 16:18:26','2021-03-07 21:06:21'),(16,'Joel Balmaceda Prins','joel5@gmail.com','$2y$10$3cZ13D6K4JZRem1h0XgcWOWxIoN/iMTlQ0qeFXe/.xiJ0vSCa/QEy',NULL,NULL,1,1,NULL,NULL,NULL,NULL,'2021-03-07 16:34:55','2021-03-07 21:06:14'),(26,'admin','admin.dg@admin.com','$2y$10$oqhiYTd50owh.xQUg8jo/esYRZkMk3hS8sw3aC67EuYH5iqxqYZLe',NULL,NULL,0,1,NULL,NULL,NULL,NULL,'2021-03-07 18:38:23','2021-03-07 21:06:58');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
