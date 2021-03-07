@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 17b501c33c5aa70634774687640312d6da55226d isaiasjbp <isaias.balmaceda@gmail.com> 1612830705 -0500	clone: from https://bitbucket.org/ibalmaceda/prueba_ingreso.git
+17b501c33c5aa70634774687640312d6da55226d a4eed094128da26afc345d32d4ce33822f2a8baf isaiasjbp <isaias.balmaceda@gmail.com> 1612832471 -0500	commit: login_db_funcional
+a4eed094128da26afc345d32d4ce33822f2a8baf a4eed094128da26afc345d32d4ce33822f2a8baf isaiasjbp <isaias.balmaceda@gmail.com> 1612835884 -0500	checkout: moving from main to v1.0
+a4eed094128da26afc345d32d4ce33822f2a8baf 25cb6e69c253e74486467d05059d46aa08c35dab isaiasjbp <isaias.balmaceda@gmail.com> 1612836153 -0500	commit: creamos componentes liverwire
+25cb6e69c253e74486467d05059d46aa08c35dab 2602c80da5fecbcfb1887f985ce415cab03a8d36 ibalmaceda <isaias.balmaceda@gmail.com> 1615055635 -0500	checkout: moving from v1.0 to v2
