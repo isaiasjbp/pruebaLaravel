@@ -32,8 +32,9 @@ class DashboardController extends Controller {
 
 
     public function getGrafca() {
-        $datos['marcas'] = Modelos::join('marcas', 'modelos.marca_id', '=', 'marcas.id')
+        $back_datos['marcas'] = Modelos::join('marcas', 'modelos.marca_id', '=', 'marcas.id')
         ->get(['marcas.id as marca_id','marcas.nombre', 'modelos.id', 'modelos.modelo','modelos.descripcion',  'modelos.created_at']) ;
+        $datos['marcas'] = Marcas::all();
         return view("components/grafica", ['datos' =>  $datos]);
     }
 }
