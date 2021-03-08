@@ -19,7 +19,7 @@
     <div class=" container login_form col-md-5  ">
 
         <div class="">
-            <center><p class="uppercase titulo_login ">Incio de sesión  </p></center>
+            <center><p class="uppercase titulo_login ">Inicio de sesión  </p></center>
         </div>
 
         <x-jet-validation-errors class="mb-4 error_login" />
