@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\MarcasController; 
-use App\Http\Controllers\ModelosController; 
+use App\Http\Controllers\MarcasController;
+use App\Http\Controllers\ModelosController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\CheckRoll;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
@@ -45,6 +45,8 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::post('actualizar/modelo', [ModelosController::class, 'store']);
     Route::post('eliminar/modelo', [ModelosController::class, 'store']);
     /* Fin Modelos */
+
+    Route::post('get/grafica', [DashboardController::class, 'getGrafca']);
 });
 //check del roll de usuario
 Route::middleware([CheckRoll::class])->group(function () {

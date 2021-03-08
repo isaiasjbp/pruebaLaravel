@@ -1,11 +1,10 @@
 
 
-
-function llamarBotones(ruta) { 
+function llamarBotones(ruta) {
     "use strict";
     $.ajax({
         async: true,
-        url: urlBase + ruta, 
+        url: urlBase + ruta,
         type: 'post',
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -33,7 +32,7 @@ function llamarComponente(ruta, div) {
             console.log("No se ha podido obtener la información");
         }
     }).done(function (respuesta) {
-     
+
          $("#"+div).html(respuesta);
     });
 }
@@ -55,13 +54,13 @@ function enviarDatos(ruta, datos) {
             id: datos,
             accion: 'desactivar'
         }
-    } 
+    }
     if (ruta == 'activar/usuario') {
         datos = {
             id: datos,
             accion: 'activar'
         }
-    } 
+    }
     $.ajax({
         async: true,
         url: urlBase + ruta,
@@ -99,13 +98,13 @@ function enviarDatosMarca(ruta, datos) {
             id: datos,
             accion: 'desactivar'
         }
-    } 
+    }
     if (ruta == 'activar/marca') {
         datos = {
             id: datos,
             accion: 'activar'
         }
-    } 
+    }
     $.ajax({
         async: true,
         url: urlBase + ruta,
@@ -142,13 +141,13 @@ function enviarDatosModelo(ruta, datos) {
             id: datos,
             accion: 'desactivar'
         }
-    } 
+    }
     if (ruta == 'activar/modelo') {
         datos = {
             id: datos,
             accion: 'activar'
         }
-    } 
+    }
     $.ajax({
         async: true,
         url: urlBase + ruta,
