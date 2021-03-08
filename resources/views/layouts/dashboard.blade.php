@@ -33,9 +33,9 @@
 @endphp
     <div class="wrapper">
 
-               <div > 
+               <div >
                 <x-navbar  />
-                
+
                 </div>
 
                 <x-sidebar/>
@@ -57,9 +57,11 @@
                        @endphp
                         <!-- Main content -->
                         <section class="content">
-                            <div class="container-fluid" id='botonesNavbar'>
+                            <div class="container-fluid" >
+                             <div  id='botonesNavbar'>
                             @component('components.botones-panel', ['datos' => $datos])
                             @endcomponent
+                            </div>
                              <div id="visorCompontes"></div>
                             </div>
                         </section>

@@ -30,6 +30,7 @@ Route::get('/dashboard',  [DashboardController::class, 'index']);
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::post('get/Botones', [DashboardController::class, 'getBotones']);
+
     Route::post('nueva/marca', [MarcasController::class, 'create']);
     Route::post('get/marcas', [MarcasController::class, 'index']);
     Route::post('registrar/marca', [MarcasController::class, 'store']);

@@ -12,7 +12,7 @@ function llamarBotones(ruta) {
         error: function () {
             console.log("No se ha podido obtener la información");
         }
-    }).done(function (respuesta) {
+    }).done(function(respuesta) {
          $("#botonesNavbar").html(respuesta);
     });
 }
@@ -34,6 +34,7 @@ function llamarComponente(ruta, div) {
     }).done(function (respuesta) {
 
          $("#"+div).html(respuesta);
+         llamarBotones('get/Botones');
     });
 }
 
@@ -73,7 +74,7 @@ function enviarDatos(ruta, datos) {
             console.log("No se ha podido obtener la información");
         }
     }).done(function (datos) {
-         //llamarBotones('get/Botones');
+          llamarBotones('get/Botones');
         $("#visorCompontes").html(datos);
 
     });
@@ -117,7 +118,7 @@ function enviarDatosMarca(ruta, datos) {
             console.log("No se ha podido obtener la información");
         }
     }).done(function (datos) {
-        //llamarBotones('get/Botones');
+       llamarBotones('get/Botones');
         $("#visorCompontes").html(datos);
 
     });
@@ -160,7 +161,7 @@ function enviarDatosModelo(ruta, datos) {
             console.log("No se ha podido obtener la información");
         }
     }).done(function (datos) {
-        //llamarBotones('get/Botones');
+      llamarBotones('get/Botones');
         $("#visorCompontes").html(datos);
 
     });
